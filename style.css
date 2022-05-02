@@ -1,0 +1,102 @@
+@font-face {
+  font-family: Araboto;
+  src: url("https://github.com/m0h4mm4d-h053n/fractice-vanced/blob/index/Araboto%20Normal.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Araboto";
+}
+
+body {
+  background-color: #f2f2f2;
+  color: #252525;
+}
+
+header div.preNav {
+  text-align: center;
+  margin: 20% 0 17% 0;
+}
+div h1.headline {
+  font-family: "Araboto";
+  font-weight: 300;
+  font-size: 33px;
+}
+div p.subHeadline {
+  opacity: 85%;
+  margin-top: 5px;
+}
+header nav.navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 19px;
+  opacity: 85%;
+  margin-bottom: 40px;
+}
+
+header nav div.left {
+  margin-left: 20px;
+}
+header nav div.right {
+  margin-right: 20px;
+}
+header nav div.right .fa-solid {
+  margin: 0 9px;
+}
+main div.grayColor {
+  color: #9d9d9d;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  font-size: 13px;
+  margin-right: 21px;
+}
+p.sortStyle {
+  margin: 0 7px;
+}
+p.space {
+  font-size: 18px;
+  margin-right: 7px;
+  margin-bottom: 3px;
+  font-weight: 300;
+  opacity: 90%;
+}
+main div.note {
+  background-color: #fcfcfc;
+  margin: 20px 13px;
+  border-radius: 10px;
+  padding: 25px 20px;
+}
+div h2.noteHead {
+  font-weight: 500;
+  font-size: 18px;
+}
+div p.time {
+  font-weight: 400;
+  font-size: 12px;
+  opacity: 90%;
+  color: #9d9d9d;
+}
+div.noteContent {
+  margin: 13px 0 0 2px;
+  font-size: 13px;
+  line-height: 1.4em;
+}
+main div.newDoc {
+  background-color: #f46a4e;
+  color: #f2f2f2;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 50%;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+.fa-pen {
+  font-size: 20px;
+}
